@@ -30,6 +30,7 @@ Thermostat.prototype.isAboveMin = function(number) {
   } else {
   return false;
   };
+};
 
 Thermostat.prototype.switchMode = function() {
   if (powerSave === true) {
@@ -38,3 +39,4 @@ Thermostat.prototype.switchMode = function() {
     powerSave = true;
   };
 };
+
